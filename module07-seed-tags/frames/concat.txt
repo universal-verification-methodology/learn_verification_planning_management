@@ -1,0 +1,13 @@
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module07-seed-tags/frames/slide-1.png'
+duration 15.192
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module07-seed-tags/frames/slide-2.png'
+duration 22.392
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module07-seed-tags/frames/slide-3.png'
+duration 19.056
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module07-seed-tags/frames/slide-4.png'
+duration 12.216
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module07-seed-tags/frames/slide-5.png'
+duration 16.128
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module07-seed-tags/frames/slide-6.png'
+duration 10.056
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module07-seed-tags/frames/slide-6.png'

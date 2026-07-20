@@ -1,35 +1,54 @@
-# Module 09 outline — stub for module-slides
-title: "Verification metrics"
-kind: lab
-lab: verif-metrics
-footer: "learn_verification_planning_management — verif-metrics"
+title: Verification metrics
+footer: learn_verification_planning_management — verif metrics
 slides:
-  - type: title
-    title: "Verification metrics"
-    subtitle: "verification planning module 09"
-    notes: "Welcome. This module is Verification metrics."
-  - type: bullets
-    title: Core idea
-    bullets:
-      - One planning concept
-      - Why it matters for sign-off
-    notes: "Teach the core idea — expand spoken prose in transcript.md."
-  - type: bullets
-    title: Track B browser lab
-    bullets:
-      - Open the matching planning lab
-      - Load starter · challenges
-    notes: "Show the browser board starter when available."
-  - type: bullets
-    title: Track A written plan
-    bullets:
-      - Paper or markdown table
-      - Optional legacy templates
-    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
-  - type: bullets
-    title: Your turn
-    bullets:
-      - Complete the checklist for at least one track
-      - Optional short quiz
-    notes: "Send learners to CHECKLIST.md, then the next module."
-duration_minutes: 6
+- type: title
+  title: Verification metrics
+  subtitle: Plans need numbers that leadership and engineers share
+  notes: 'Plans need numbers that leadership and engineers share. Common bars: regression
+    pass rate, plan or functional coverage percent, and severe bug escapes. Healthy
+    means every metric meets its bar. Blocked means an escape bar was broken. Open
+    means you are under on pass or coverage.'
+- type: bullets
+  title: Bars that matter
+  bullets:
+  - Pass rate below the bar means instability, you cannot trust green stories
+  - Coverage percent below goal means unfinished plan risk
+  - Bug escapes above zero at a sev-one bar usually stop the gate
+  - Levels good, warn, and bad are how you talk without drowning in raw dumps
+  notes: Pass rate below the bar means instability—you cannot trust green stories.
+    Coverage percent below goal means unfinished plan risk. Bug escapes above zero
+    at a sev-one bar usually stop the gate. Levels good, warn, and bad are how you
+    talk without drowning in raw dumps.
+- type: image
+  title: Browser lab
+  image: assets/lab-starter.png
+  caption: Lab starter
+  notes: In the metrics lab, load the starter with strong pass rate, coverage, and
+    zero escapes—healthy. Drop pass rate or raise escapes and scan the board. Challenges
+    show how one escape can block the story even if coverage looks fine.
+- type: bullets
+  title: Planning docs practice
+  bullets:
+  - Write three metric names with a numeric bar each for a fictional milestone
+  - Mark today’s sample good, warn, or bad
+  - If any is bad, write the first action you would take this week
+  notes: Write three metric names with a numeric bar each for a fictional milestone.
+    Mark today’s sample good, warn, or bad. If any is bad, write the first action
+    you would take this week.
+- type: bullets
+  title: Pitfalls to watch
+  bullets:
+  - Do not call the program healthy because CI ran once
+  - Do not ignore escape counts when coverage is high
+  - Do not change bars silently mid-milestone
+  - And do not track twenty vanity metrics, three honest bars beat a dashboard museum
+  notes: Do not call the program healthy because CI ran once. Do not ignore escape
+    counts when coverage is high. Do not change bars silently mid-milestone. And do
+    not track twenty vanity metrics—three honest bars beat a dashboard museum.
+- type: bullets
+  title: Your turn
+  bullets:
+  - Complete the checklist for at least one track, preferably both
+  - Set or interpret three bars, then take the quiz and continue to CI and farm flow
+  notes: Complete the checklist for at least one track—preferably both. Set or interpret
+    three bars, then take the quiz and continue to CI and farm flow.

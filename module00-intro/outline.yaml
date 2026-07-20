@@ -1,35 +1,72 @@
-# Module 00 outline — stub for module-slides
-title: "Welcome to verification planning"
-kind: intro
-lab: null
-footer: "learn_verification_planning_management — intro"
+title: Welcome to verification planning
+footer: learn_verification_planning_management — intro
 slides:
-  - type: title
-    title: "Welcome to verification planning"
-    subtitle: "verification planning module 00"
-    notes: "Welcome. This module is Welcome to verification planning."
-  - type: bullets
-    title: Core idea
-    bullets:
-      - One planning concept
-      - Why it matters for sign-off
-    notes: "Teach the core idea — expand spoken prose in transcript.md."
-  - type: bullets
-    title: Track B browser lab
-    bullets:
-      - Open the matching planning lab
-      - Load starter · challenges
-    notes: "Show the browser board starter when available."
-  - type: bullets
-    title: Track A written plan
-    bullets:
-      - Paper or markdown table
-      - Optional legacy templates
-    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
-  - type: bullets
-    title: Your turn
-    bullets:
-      - Complete the checklist for at least one track
-      - Optional short quiz
-    notes: "Send learners to CHECKLIST.md, then the next module."
-duration_minutes: 6
+- type: title
+  title: Welcome to verification planning
+  subtitle: Welcome to verification planning and management
+  notes: 'Welcome to verification planning and management. Protocol and UVM courses
+    teach how to build tests and VIP. This path teaches the other half: how to plan
+    what to verify, measure coverage and risk, triage regressions, and decide when
+    you are ready to sign off.'
+- type: bullets
+  title: What you’ll build toward
+  bullets:
+  - The arc is plan, coverage, regression, sign-off
+  - VIP handoff deliverables
+  - Deep VIP engines stay in protocol and UVM courses
+  notes: The arc is plan, coverage, regression, sign-off. You’ll practice a feature-to-scenario-to-coverage
+    checklist, test taxonomy, a feature-by-scenario matrix, cover bins and closure
+    ideas, risk priority, seed and tag replay cards, triage buckets, metrics bars,
+    CI-to-farm flow, a sign-off gate, and VIP handoff deliverables. Deep VIP engines
+    stay in protocol and UVM courses—here you learn the planning layer those courses
+    point to.
+- type: bullets
+  title: Two tracks, one idea
+  bullets:
+  - Track A is planning docs you keep
+  - Track B is the platform’s verification-planning boards
+  - You may do either track, or both
+  - A good rhythm is browser board first for vocabulary
+  notes: 'Track A is planning docs you keep: paper or markdown tables, optional templates
+    in the legacy verification planning materials. Track B is the platform’s verification-planning
+    boards—interactive checklists and matrices with challenges. You may do either
+    track, or both. A good rhythm is browser board first for vocabulary, then a short
+    written table you could paste into a real project plan.'
+- type: bullets
+  title: Set up Track A
+  bullets:
+  - Open this course folder and skim the module READMEs
+  - Keep a notebook or markdown file ready for small tables
+  - 'Optional: browse the legacy planning materials for templates'
+  - From the course root, self-check scripts can grade checklist items when you want
+    them
+  - Helpful prereq
+  notes: 'Open this course folder and skim the module READMEs. Keep a notebook or
+    markdown file ready for small tables. Optional: browse the legacy planning materials
+    for templates. From the course root, self-check scripts can grade checklist items
+    when you want them. Helpful prereq: one protocol course or basic UVM literacy—so
+    the plan words map to tests you already understand.'
+- type: two_column
+  title: Set up Track B
+  left:
+  - From the monorepo
+  - All twelve planning labs ship, from plan checklist through VIP handoff
+  - If you prefer, use the published tools site instead
+  - Confirm you can reach the index; the next module opens the coverage and plan checklist
+    lab
+  right: assets/tools-index.png
+  notes: From the monorepo, serve the platform folder with a simple local web server,
+    then open the tools index and jump to the verification-planning section. All twelve
+    planning labs ship—from plan checklist through VIP handoff. If you prefer, use
+    the published tools site instead. Confirm you can reach the index; the next module
+    opens the coverage and plan checklist lab.
+- type: bullets
+  title: How to move through modules
+  bullets:
+  - For each module
+  - Prefer Track B for graded board challenges
+  - When you finish this intro checklist, continue to the coverage and plan checklist
+  notes: For each module, read the README for the outcome, pick a track—or both—then
+    work the checklist. Prefer Track B for graded board challenges; prefer Track A
+    for artifacts you can reuse at work. When you finish this intro checklist, continue
+    to the coverage and plan checklist.

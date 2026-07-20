@@ -1,0 +1,13 @@
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module05-coverage-closure/frames/slide-1.png'
+duration 15.912
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module05-coverage-closure/frames/slide-2.png'
+duration 19.008
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module05-coverage-closure/frames/slide-3.png'
+duration 18.768
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module05-coverage-closure/frames/slide-4.png'
+duration 12.792
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module05-coverage-closure/frames/slide-5.png'
+duration 16.272
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module05-coverage-closure/frames/slide-6.png'
+duration 10.968
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module05-coverage-closure/frames/slide-6.png'

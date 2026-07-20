@@ -1,35 +1,55 @@
-# Module 07 outline — stub for module-slides
-title: "Seed / config / tags"
-kind: lab
-lab: seed-tags
-footer: "learn_verification_planning_management — seed-tags"
+title: Seed / config / tags
+footer: learn_verification_planning_management — seed tags
 slides:
-  - type: title
-    title: "Seed / config / tags"
-    subtitle: "verification planning module 07"
-    notes: "Welcome. This module is Seed / config / tags."
-  - type: bullets
-    title: Core idea
-    bullets:
-      - One planning concept
-      - Why it matters for sign-off
-    notes: "Teach the core idea — expand spoken prose in transcript.md."
-  - type: bullets
-    title: Track B browser lab
-    bullets:
-      - Open the matching planning lab
-      - Load starter · challenges
-    notes: "Show the browser board starter when available."
-  - type: bullets
-    title: Track A written plan
-    bullets:
-      - Paper or markdown table
-      - Optional legacy templates
-    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
-  - type: bullets
-    title: Your turn
-    bullets:
-      - Complete the checklist for at least one track
-      - Optional short quiz
-    notes: "Send learners to CHECKLIST.md, then the next module."
-duration_minutes: 6
+- type: title
+  title: Seed / config / tags
+  subtitle: A failing random test is useless if you cannot replay it
+  notes: A failing random test is useless if you cannot replay it. A run card needs
+    a seed, enough config to relaunch the same mode, and tags that place the fail
+    on triage boards. Replayable means those fields are filled on purpose.
+- type: bullets
+  title: What belongs on the card
+  bullets:
+  - Seed fixes the RNG so stimulus can return
+  - Config holds plusargs and knobs, test name, baud, modes, not seed alone
+  - 'Tags label slices: smoke, nightly, flake, quarantine'
+  - Weak means you recorded a seed but not enough config to relaunch
+  - Missing any field blocks a clean replay story
+  notes: 'Seed fixes the RNG so stimulus can return. Config holds plusargs and knobs—test
+    name, baud, modes—not seed alone. Tags label slices: smoke, nightly, flake, quarantine.
+    Weak means you recorded a seed but not enough config to relaunch. Missing any
+    field blocks a clean replay story.'
+- type: image
+  title: Browser lab
+  image: assets/lab-starter.png
+  caption: Lab starter
+  notes: In the seed-tags lab, load the starter with seed forty-two, a named UART
+    test and baud, and smoke plus nightly tags—replayable. Try a seed-only config
+    and watch weak. Attach missing fields, then scan the card. Challenges drill what
+    “enough config” means.
+- type: bullets
+  title: Planning docs practice
+  bullets:
+  - 'Write one run card for an imaginary fail: seed, two plusargs, and two tags'
+  - Then rewrite a bad card that only says “seed seven” and explain why a teammate
+    could not
+  notes: 'Write one run card for an imaginary fail: seed, two plusargs, and two tags.
+    Then rewrite a bad card that only says “seed seven” and explain why a teammate
+    could not replay it.'
+- type: bullets
+  title: Pitfalls to watch
+  bullets:
+  - Do not file fails with seed only
+  - Do not skip tags so flakes vanish from boards
+  - Do not change knobs while claiming the same seed replay
+  - And do not treat the literacy board as your company’s database
+  notes: Do not file fails with seed only. Do not skip tags so flakes vanish from
+    boards. Do not change knobs while claiming the same seed replay. And do not treat
+    the literacy board as your company’s database—copy the habit into real tickets.
+- type: bullets
+  title: Your turn
+  bullets:
+  - Complete the checklist for at least one track, preferably both
+  - Build one replayable run card, then take the quiz and continue to regression triage
+  notes: Complete the checklist for at least one track—preferably both. Build one
+    replayable run card, then take the quiz and continue to regression triage.

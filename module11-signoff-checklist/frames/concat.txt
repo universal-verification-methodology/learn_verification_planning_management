@@ -1,0 +1,13 @@
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module11-signoff-checklist/frames/slide-1.png'
+duration 20.424
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module11-signoff-checklist/frames/slide-2.png'
+duration 17.76
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module11-signoff-checklist/frames/slide-3.png'
+duration 18.624
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module11-signoff-checklist/frames/slide-4.png'
+duration 12.336
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module11-signoff-checklist/frames/slide-5.png'
+duration 18.624
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module11-signoff-checklist/frames/slide-6.png'
+duration 10.752
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module11-signoff-checklist/frames/slide-6.png'

@@ -1,0 +1,53 @@
+{
+  "module": "module10-ci-farm-flow",
+  "title": "CI / farm flow",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "The staged flow in this lab is…",
+      "choices": [
+        "Local → CI → farm",
+        "Only wave → force → waive",
+        "Only docs → API → self-test",
+        "Only feature → scenario without coverage"
+      ],
+      "answer": 0,
+      "explain": "Local smoke, CI gate, farm scale-out."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Skipping CI while claiming farm green typically…",
+      "choices": [
+        "Gaps the chain — not a full READY flow",
+        "Is required for sign-off",
+        "Makes metrics HEALTHY automatically",
+        "Replaces triage buckets"
+      ],
+      "answer": 0,
+      "explain": "Skip → GAPPED."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A failed local stage should…",
+      "choices": [
+        "Block promotion to later stages",
+        "Be ignored if farm is green",
+        "Delete coverage holes",
+        "Auto-waive sev-1 bugs"
+      ],
+      "answer": 0,
+      "explain": "Fail → BLOCKED promotion."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "Local is for fast sanity before push; farm is for scale-out regression and soak.",
+      "answer": true,
+      "explain": "Different stages, different jobs."
+    }
+  ]
+}

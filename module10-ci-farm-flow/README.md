@@ -26,13 +26,15 @@ After this module you can explain and practice the ideas taught by **`ci-farm-fl
 
 > Concept labs are literacy tools — they do not replace a real coverage DB or farm.
 
-## Media (module-slides ready)
+## Media
 
 | Artifact | Path |
 |----------|------|
-| Outline | [outline.yaml](outline.yaml) |
 | Transcript | [transcript.md](transcript.md) |
-| Slides / video | generate with **module-slides** |
+| Outline | [outline.yaml](outline.yaml) |
+| Slides | [slides.pptx](slides.pptx) · [slides.pdf](slides.pdf) |
+| Video | [video.mp4](video.mp4) |
+| Quiz | [quiz.json](quiz.json) |
 
 ## Files
 

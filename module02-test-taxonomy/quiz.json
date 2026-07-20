@@ -1,0 +1,53 @@
+{
+  "module": "module02-test-taxonomy",
+  "title": "Test taxonomy",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Directed tests are mainly for…",
+      "choices": [
+        "Hand-crafted stimulus for a known scenario or requirement",
+        "Only farm license recovery",
+        "Only waiver documents",
+        "Only random plusarg soup with no intent"
+      ],
+      "answer": 0,
+      "explain": "Directed = known scenario checks."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Corner / negative tests target…",
+      "choices": [
+        "Illegal, boundary, or rare sequences",
+        "Only happy-path one-byte smoke",
+        "Only documentation typos",
+        "Only CI agent installers"
+      ],
+      "answer": 0,
+      "explain": "Corner = edges and illegal cases."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "An all-directed suite with no corner tests is typically…",
+      "choices": [
+        "Skewed—missing intentional tier mix",
+        "Automatically BALANCED",
+        "A sign-off READY gate",
+        "Proof of zero bug escapes"
+      ],
+      "answer": 0,
+      "explain": "Missing tiers → SKEWED."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "BALANCED taxonomy means each tier has intentional tests—not that coverage percent is 100.",
+      "answer": true,
+      "explain": "Taxonomy ≠ coverage closure number."
+    }
+  ]
+}

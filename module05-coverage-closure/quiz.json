@@ -1,0 +1,53 @@
+{
+  "module": "module05-coverage-closure",
+  "title": "Coverage closure",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Coverage closure pairs…",
+      "choices": [
+        "Each hole with a next-test idea, then evidence before marking closed",
+        "Only seeds with farm hostnames",
+        "Only waivers with git blame",
+        "Only P cells with C cells automatically"
+      ],
+      "answer": 0,
+      "explain": "Hole + idea + evidence."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Generic “more random” against a directed hole is…",
+      "choices": [
+        "Weak—often needs a targeted hit",
+        "Always the strongest closure plan",
+        "Identical to a P0 risk score",
+        "A VIP docs pack"
+      ],
+      "answer": 0,
+      "explain": "WEAK when the hole needs directed stimulus."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "MISMATCH in this lab means…",
+      "choices": [
+        "The next-test idea targets the wrong hole",
+        "The farm is out of licenses",
+        "Taxonomy is BALANCED",
+        "Sign-off is READY"
+      ],
+      "answer": 0,
+      "explain": "Idea and hole must align."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "You should mark a hole closed only when evidence matches the planned idea.",
+      "answer": true,
+      "explain": "Closure without evidence is theater."
+    }
+  ]
+}

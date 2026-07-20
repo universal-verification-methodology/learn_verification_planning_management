@@ -1,35 +1,66 @@
-# Module 01 outline — stub for module-slides
-title: "Coverage / plan checklist"
-kind: lab
-lab: verif-plan-check
-footer: "learn_verification_planning_management — verif-plan-check"
+title: Coverage / plan checklist
+footer: learn_verification_planning_management — verif plan check
 slides:
-  - type: title
-    title: "Coverage / plan checklist"
-    subtitle: "verification planning module 01"
-    notes: "Welcome. This module is Coverage / plan checklist."
-  - type: bullets
-    title: Core idea
-    bullets:
-      - One planning concept
-      - Why it matters for sign-off
-    notes: "Teach the core idea — expand spoken prose in transcript.md."
-  - type: bullets
-    title: Track B browser lab
-    bullets:
-      - Open the matching planning lab
-      - Load starter · challenges
-    notes: "Show the browser board starter when available."
-  - type: bullets
-    title: Track A written plan
-    bullets:
-      - Paper or markdown table
-      - Optional legacy templates
-    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
-  - type: bullets
-    title: Your turn
-    bullets:
-      - Complete the checklist for at least one track
-      - Optional short quiz
-    notes: "Send learners to CHECKLIST.md, then the next module."
-duration_minutes: 6
+- type: title
+  title: Coverage / plan checklist
+  subtitle: A verification plan is not a pile of test names
+  notes: 'A verification plan is not a pile of test names. It is a traceability chain:
+    a feature the product must do, a scenario that exercises it, and a coverage item
+    that proves the scenario ran. If any link is missing, you cannot measure completion.'
+- type: bullets
+  title: Feature, scenario, coverage
+  bullets:
+  - Feature means requirement or capability, say UART transmit
+  - Scenario is the test story, send one byte
+  - Coverage is the measurable proof
+  - Complete means all three layers link
+  - 'Incomplete means a gap: a scenario with no coverage, or coverage with no owning
+    feature'
+  notes: 'Feature means requirement or capability—say UART transmit. Scenario is the
+    test story—send one byte. Coverage is the measurable proof—a bin, coverpoint,
+    or checklist item such as transmit-byte-done. Complete means all three layers
+    link. Incomplete means a gap: a scenario with no coverage, or coverage with no
+    owning feature.'
+- type: image
+  title: Browser lab
+  image: assets/lab-starter.png
+  caption: Lab starter
+  notes: 'In the plan-check lab, load the starter: UART TX, send one byte, and transmit-byte-done
+    linked—status complete. Try presets that drop coverage or orphan a bin, then rebuild
+    the chain. Challenges quiz each layer and force you to restore a complete plan
+    from gaps.'
+- type: bullets
+  title: Planning docs practice
+  bullets:
+  - 'On paper or markdown, write one row with three columns: feature, scenario, coverage
+    item'
+  - Use a tiny UART or SPI capability you know
+  - 'Then deliberately delete the coverage cell and ask: how would I know this scenario
+    ran?'
+  - That question is the whole module
+  notes: 'On paper or markdown, write one row with three columns: feature, scenario,
+    coverage item. Use a tiny UART or SPI capability you know. Then deliberately delete
+    the coverage cell and ask: how would I know this scenario ran? That question is
+    the whole module.'
+- type: bullets
+  title: Pitfalls to watch
+  bullets:
+  - Do not treat the board as a live coverage database
+  - Do not list coverage items with no feature owner, orphans lie
+  - Do not stop at scenarios without a measurable proof
+  - And do not confuse “we have a test file” with “we have a coverable claim.”
+  notes: Do not treat the board as a live coverage database. Do not list coverage
+    items with no feature owner—orphans lie. Do not stop at scenarios without a measurable
+    proof. And do not confuse “we have a test file” with “we have a coverable claim.”
+- type: bullets
+  title: Your turn
+  bullets:
+  - Complete the checklist for at least one track, preferably both
+  - In the browser, reach a complete three-layer chain
+  - On paper, write one feature-scenario-coverage row you could paste into a real
+    plan
+  - When you are ready, take the short quiz, then continue to test taxonomy
+  notes: Complete the checklist for at least one track—preferably both. In the browser,
+    reach a complete three-layer chain. On paper, write one feature-scenario-coverage
+    row you could paste into a real plan. When you are ready, take the short quiz,
+    then continue to test taxonomy.

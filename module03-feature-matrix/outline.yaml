@@ -1,35 +1,58 @@
-# Module 03 outline — stub for module-slides
-title: "Feature × scenario matrix"
-kind: lab
-lab: feature-matrix
-footer: "learn_verification_planning_management — feature-matrix"
+title: Feature × scenario matrix
+footer: learn_verification_planning_management — feature matrix
 slides:
-  - type: title
-    title: "Feature × scenario matrix"
-    subtitle: "verification planning module 03"
-    notes: "Welcome. This module is Feature × scenario matrix."
-  - type: bullets
-    title: Core idea
-    bullets:
-      - One planning concept
-      - Why it matters for sign-off
-    notes: "Teach the core idea — expand spoken prose in transcript.md."
-  - type: bullets
-    title: Track B browser lab
-    bullets:
-      - Open the matching planning lab
-      - Load starter · challenges
-    notes: "Show the browser board starter when available."
-  - type: bullets
-    title: Track A written plan
-    bullets:
-      - Paper or markdown table
-      - Optional legacy templates
-    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
-  - type: bullets
-    title: Your turn
-    bullets:
-      - Complete the checklist for at least one track
-      - Optional short quiz
-    notes: "Send learners to CHECKLIST.md, then the next module."
-duration_minutes: 6
+- type: title
+  title: Feature × scenario matrix
+  subtitle: A matrix makes intersections visible
+  notes: A matrix makes intersections visible. Rows are features; columns are scenarios.
+    Each cell is empty, planned, or covered. Empty means you never decided; planned
+    means intent without proof; covered means evidence exists. Scanning gaps is how
+    plans stop lying to you.
+- type: bullets
+  title: Planned versus covered
+  bullets:
+  - Mark P when you intend a test or story for that intersection
+  - Mark C when a bin, checklist, or passing directed check proves it
+  - A board with no empty cells can still be weak if everything is only P
+  - Closing gaps means either plan the empty cell or produce coverage for a planned
+    one
+  notes: Mark P when you intend a test or story for that intersection. Mark C when
+    a bin, checklist, or passing directed check proves it. A board with no empty cells
+    can still be weak if everything is only P—intent without evidence. Closing gaps
+    means either plan the empty cell or produce coverage for a planned one.
+- type: image
+  title: Browser lab
+  image: assets/lab-starter.png
+  caption: Lab starter
+  notes: In the feature-matrix lab, load the starter UART transmit and receive against
+    byte, idle, and error scenarios with no empty cells. Cycle cells between empty,
+    P, and C. Load a one-gap or many-gaps preset and scan until you can name every
+    hole.
+- type: bullets
+  title: Planning docs practice
+  bullets:
+  - 'Draw a two-by-three grid for one block: two features, three scenarios'
+  - Fill each cell with dash, P, or C
+  - Leave one empty on purpose, then write the next action that would fill it
+  - That next-action habit is the point of the matrix
+  notes: 'Draw a two-by-three grid for one block: two features, three scenarios. Fill
+    each cell with dash, P, or C. Leave one empty on purpose, then write the next
+    action that would fill it. That next-action habit is the point of the matrix.'
+- type: bullets
+  title: Pitfalls to watch
+  bullets:
+  - Do not conflate P with C
+  - Do not celebrate zero empty cells when nothing is covered
+  - Do not hide rare scenarios off the grid
+  - And do not grow the matrix so huge that nobody maintains it, start small and real
+  notes: Do not conflate P with C. Do not celebrate zero empty cells when nothing
+    is covered. Do not hide rare scenarios off the grid. And do not grow the matrix
+    so huge that nobody maintains it—start small and real.
+- type: bullets
+  title: Your turn
+  bullets:
+  - Complete the checklist for at least one track, preferably both
+  - Scan one matrix for gaps, fix or name them, then take the quiz and continue to
+    cover bins
+  notes: Complete the checklist for at least one track—preferably both. Scan one matrix
+    for gaps, fix or name them, then take the quiz and continue to cover bins.

@@ -1,0 +1,53 @@
+{
+  "module": "module06-risk-plan",
+  "title": "Risk-based plan",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Risk in this lab means…",
+      "choices": [
+        "Likelihood a bug class appears",
+        "Only the coverage percent bar",
+        "Only the git remote name",
+        "Only VIP README length"
+      ],
+      "answer": 0,
+      "explain": "Risk = likelihood."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Impact means…",
+      "choices": [
+        "Severity if the bug escapes",
+        "Number of random seeds only",
+        "Wave cursor count",
+        "Farm disk free space only"
+      ],
+      "answer": 0,
+      "explain": "Impact = escape severity."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Marking every item P0 usually…",
+      "choices": [
+        "Destroys triage—nothing is prioritized",
+        "Guarantees sign-off READY",
+        "Makes taxonomy BALANCED",
+        "Fixes all flakes"
+      ],
+      "answer": 0,
+      "explain": "Everything-P0 is not a plan."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "High likelihood × high impact items should not be casually deferred.",
+      "answer": true,
+      "explain": "Those belong in the must-test wave."
+    }
+  ]
+}

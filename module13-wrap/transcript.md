@@ -1,29 +1,31 @@
 # Module 13 — Planning path complete
 
-**Module id:** module13-wrap  
-**Lab:** none  
-**Tracks:** recap only
+**Module id:** module13-wrap
+**Lab:** none (wrap)
+**Tracks:** A · B recap
 
 ## Slide 1 — Planning path complete
 
-Welcome to verification planning and management. This module focuses on **Planning path complete**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+You now have a working map of verification planning and management: traceability from feature to coverage, taxonomy and matrices, bins and closure, risk and replay cards, triage and metrics, CI-to-farm flow, sign-off criteria, and VIP handoff. Protocol and UVM courses build engines; you learned how to plan, measure, and gate them.
 
-## Slide 2 — Why this matters
+## Slide 2 — Skills you can reuse
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+Write plans others can audit. Prefer measurable coverage claims over test-name lists. Mix test tiers on purpose. Close holes with next-test ideas. Prioritize by risk and impact. File fails with seed, config, and tags. Bucket nightly noise. Track a few honest bars. Promote only through honest stages. Sign off with evidence or owned waivers.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Dual-track recap
 
-Point at the tools verification-planning section.
+![Tools index](assets/tools-index.png)
 
-## Slide 4 — Track A written plan
+If you mainly used browser boards, take one checklist or matrix into markdown for a real block. If you mainly wrote docs, revisit any planning lab for graded challenges. Either way, keep the vocabulary shared with your team.
 
-Show the plan → coverage → regression → sign-off arc.
+## Slide 4 — Where to go next
 
-## Slide 5 — Pitfalls
+Return to UART, SPI, or I²C to attach plans to protocol work. Deepen UVM and pyuvm when you need stronger TB engines. Use HDL simulator, Icarus, or Verilator courses when execution fidelity is the bottleneck. Climb the syllabus ladder for the gap you feel most.
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+## Slide 5 — Mindset to keep
 
-## Slide 6 — Your turn
+Plans without coverage claims are theater. Coverage without closure actions stalls. Metrics without triage lie. Sign-off without evidence is hope. Small, maintained artifacts beat giant unread spreadsheets.
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+## Slide 6 — Closing
+
+Check off the wrap checklist. You finished the verification planning and management path. Pick one real project artifact to improve this week—a matrix row, a run card, or a sign-off line—then continue to the next course that matches your goal.

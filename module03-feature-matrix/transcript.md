@@ -1,29 +1,31 @@
 # Module 03 — Feature × scenario matrix
 
-**Module id:** module03-feature-matrix  
-**Lab:** feature-matrix  
+**Module id:** module03-feature-matrix
+**Lab:** feature-matrix
 **Tracks:** A (planning docs) · B (browser lab)
 
 ## Slide 1 — Feature × scenario matrix
 
-Welcome to verification planning and management. This module focuses on **Feature × scenario matrix**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+A matrix makes intersections visible. Rows are features; columns are scenarios. Each cell is empty, planned, or covered. Empty means you never decided; planned means intent without proof; covered means evidence exists. Scanning gaps is how plans stop lying to you.
 
-## Slide 2 — Why this matters
+## Slide 2 — Planned versus covered
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+Mark P when you intend a test or story for that intersection. Mark C when a bin, checklist, or passing directed check proves it. A board with no empty cells can still be weak if everything is only P—intent without evidence. Closing gaps means either plan the empty cell or produce coverage for a planned one.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Browser lab
 
-Open the browser lab `feature-matrix`: load the starter example, then walk a couple of challenges so the board vocabulary sticks.
+![Lab starter](assets/lab-starter.png)
 
-## Slide 4 — Track A written plan
+In the feature-matrix lab, load the starter UART transmit and receive against byte, idle, and error scenarios with no empty cells. Cycle cells between empty, P, and C. Load a one-gap or many-gaps preset and scan until you can name every hole.
 
-On paper or in markdown, sketch the same idea once. Optional templates live under ../verification_planning_management/.
+## Slide 4 — Planning docs practice
 
-## Slide 5 — Pitfalls
+Draw a two-by-three grid for one block: two features, three scenarios. Fill each cell with dash, P, or C. Leave one empty on purpose, then write the next action that would fill it. That next-action habit is the point of the matrix.
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+## Slide 5 — Pitfalls to watch
+
+Do not conflate P with C. Do not celebrate zero empty cells when nothing is covered. Do not hide rare scenarios off the grid. And do not grow the matrix so huge that nobody maintains it—start small and real.
 
 ## Slide 6 — Your turn
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+Complete the checklist for at least one track—preferably both. Scan one matrix for gaps, fix or name them, then take the quiz and continue to cover bins.

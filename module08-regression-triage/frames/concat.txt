@@ -1,0 +1,13 @@
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module08-regression-triage/frames/slide-1.png'
+duration 17.4
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module08-regression-triage/frames/slide-2.png'
+duration 22.704
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module08-regression-triage/frames/slide-3.png'
+duration 16.44
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module08-regression-triage/frames/slide-4.png'
+duration 14.52
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module08-regression-triage/frames/slide-5.png'
+duration 13.92
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module08-regression-triage/frames/slide-6.png'
+duration 10.224
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module08-regression-triage/frames/slide-6.png'

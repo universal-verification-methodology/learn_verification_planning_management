@@ -1,35 +1,57 @@
-# Module 11 outline — stub for module-slides
-title: "Sign-off checklist"
-kind: lab
-lab: signoff-checklist
-footer: "learn_verification_planning_management — signoff-checklist"
+title: Sign-off checklist
+footer: learn_verification_planning_management — signoff checklist
 slides:
-  - type: title
-    title: "Sign-off checklist"
-    subtitle: "verification planning module 11"
-    notes: "Welcome. This module is Sign-off checklist."
-  - type: bullets
-    title: Core idea
-    bullets:
-      - One planning concept
-      - Why it matters for sign-off
-    notes: "Teach the core idea — expand spoken prose in transcript.md."
-  - type: bullets
-    title: Track B browser lab
-    bullets:
-      - Open the matching planning lab
-      - Load starter · challenges
-    notes: "Show the browser board starter when available."
-  - type: bullets
-    title: Track A written plan
-    bullets:
-      - Paper or markdown table
-      - Optional legacy templates
-    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
-  - type: bullets
-    title: Your turn
-    bullets:
-      - Complete the checklist for at least one track
-      - Optional short quiz
-    notes: "Send learners to CHECKLIST.md, then the next module."
-duration_minutes: 6
+- type: title
+  title: Sign-off checklist
+  subtitle: Sign-off is a gate, not a vibe
+  notes: 'Sign-off is a gate, not a vibe. Typical criteria: coverage goal met with
+    no open P0 holes, bug bar clear—often zero sev-one blockers—and a stability window
+    of green nights or an agreed flake bar. Ready means evidence for each criterion,
+    or a documented waiver with owner and expiry.'
+- type: bullets
+  title: Met, open, fail, waived
+  bullets:
+  - Met means evidence exists
+  - Open means not demonstrated yet
+  - Fail means the criterion is broken, such as a sev-one still open, and the gate
+    is blocked
+  - Waived means a written exception with owner
+  notes: Met means evidence exists. Open means not demonstrated yet. Fail means the
+    criterion is broken—such as a sev-one still open—and the gate is blocked. Waived
+    means a written exception with owner; it can count as closed for ready, but it
+    is not invisible.
+- type: image
+  title: Browser lab
+  image: assets/lab-starter.png
+  caption: Lab starter
+  notes: In the sign-off lab, load the starter with coverage goal, bug bar, and stability
+    all met—gate ready. Try coverage gap or bug fail presets. Check items off only
+    with a story of evidence. Challenges show that a waived stability line can still
+    be ready when policy allows.
+- type: bullets
+  title: Planning docs practice
+  bullets:
+  - Write three exit criteria for a milestone
+  - For each, note what evidence you would attach and who owns a waiver if needed
+  - If any criterion is fail, write what would unblock the gate
+  notes: Write three exit criteria for a milestone. For each, note what evidence you
+    would attach and who owns a waiver if needed. If any criterion is fail, write
+    what would unblock the gate.
+- type: bullets
+  title: Pitfalls to watch
+  bullets:
+  - Do not silent-skip failed criteria
+  - Do not waive without owner, reason, and expiry
+  - Do not sign off on coverage percent alone while sev-ones remain
+  - And do not confuse this literacy checklist with your company’s legal release process
+  notes: Do not silent-skip failed criteria. Do not waive without owner, reason, and
+    expiry. Do not sign off on coverage percent alone while sev-ones remain. And do
+    not confuse this literacy checklist with your company’s legal release process—map
+    the ideas, then use the real form.
+- type: bullets
+  title: Your turn
+  bullets:
+  - Complete the checklist for at least one track, preferably both
+  - Walk one gate to ready or name what blocks it
+  notes: Complete the checklist for at least one track—preferably both. Walk one gate
+    to ready or name what blocks it, then take the quiz and continue to VIP handoff.

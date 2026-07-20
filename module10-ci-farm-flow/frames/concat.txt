@@ -1,0 +1,13 @@
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module10-ci-farm-flow/frames/slide-1.png'
+duration 16.968
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module10-ci-farm-flow/frames/slide-2.png'
+duration 21.552
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module10-ci-farm-flow/frames/slide-3.png'
+duration 17.496
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module10-ci-farm-flow/frames/slide-4.png'
+duration 16.032
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module10-ci-farm-flow/frames/slide-5.png'
+duration 16.032
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module10-ci-farm-flow/frames/slide-6.png'
+duration 10.296
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module10-ci-farm-flow/frames/slide-6.png'

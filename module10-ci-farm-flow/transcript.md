@@ -1,29 +1,31 @@
 # Module 10 — CI / farm flow
 
-**Module id:** module10-ci-farm-flow  
-**Lab:** ci-farm-flow  
+**Module id:** module10-ci-farm-flow
+**Lab:** ci-farm-flow
 **Tracks:** A (planning docs) · B (browser lab)
 
 ## Slide 1 — CI / farm flow
 
-Welcome to verification planning and management. This module focuses on **CI / farm flow**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+Verification scales in stages: local smoke on a laptop, CI as the merge or scheduled gate, then the farm for scale-out regression and soak. Ready means each stage you claim is green in order. Skipping a stage or promoting past a red gate breaks trust.
 
-## Slide 2 — Why this matters
+## Slide 2 — Local, CI, farm
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+Local is fast sanity before push. CI is the agent gate—pull request or nightly slice. Farm is where long regressions and stress live. Pass advances; fail blocks; open means not run; skip gaps the chain. A green farm with a failed local or skipped CI is not an honest ready flow.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Browser lab
 
-Open the browser lab `ci-farm-flow`: load the starter example, then walk a couple of challenges so the board vocabulary sticks.
+![Lab starter](assets/lab-starter.png)
 
-## Slide 4 — Track A written plan
+In the CI-farm lab, load the starter with local, CI, and farm all pass—ready. Try local fail or skip CI presets and watch blocked or gapped. Set stages deliberately, then scan the flow. Challenges punish promoting past red.
 
-On paper or in markdown, sketch the same idea once. Optional templates live under ../verification_planning_management/.
+## Slide 4 — Planning docs practice
 
-## Slide 5 — Pitfalls
+Draw three boxes—local, CI, farm—and write what runs in each for your team. Mark yesterday’s real or fictional status pass, fail, open, or skip. If any is fail or skip, write the promotion rule you would enforce.
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+## Slide 5 — Pitfalls to watch
+
+Do not skip CI because the farm is “more complete.” Do not ignore local reds. Do not treat one green farm night as a full flow. And do not forget that seed and triage habits feed every stage—flow without replay is archaeology.
 
 ## Slide 6 — Your turn
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+Complete the checklist for at least one track—preferably both. Describe or set a clean local-to-farm chain, then take the quiz and continue to sign-off.

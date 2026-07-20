@@ -1,29 +1,31 @@
 # Module 04 — Cover bins sketch
 
-**Module id:** module04-cover-bins  
-**Lab:** cover-bins  
+**Module id:** module04-cover-bins
+**Lab:** cover-bins
 **Tracks:** A (planning docs) · B (browser lab)
 
 ## Slide 1 — Cover bins sketch
 
-Welcome to verification planning and management. This module focuses on **Cover bins sketch**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+Coverage closes when defined bins get hits. A coverpoint names what you sample; bins partition the interesting space. A hole is a defined bin with zero hits. Sketching bins before you code them keeps random stimulus honest about what “done” means.
 
-## Slide 2 — Why this matters
+## Slide 2 — Sample, hit, hole
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+You sample a value into the coverpoint; matching bins increment. Coverage percent is bins hit over bins defined. Hitting mid once on a four-bin nibble point is twenty-five percent with three holes left—not “mostly done.” Values outside named bins are a modeling question, not an automatic hole.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Browser lab
 
-Open the browser lab `cover-bins`: load the starter example, then walk a couple of challenges so the board vocabulary sticks.
+![Lab starter](assets/lab-starter.png)
 
-## Slide 4 — Track A written plan
+In the cover-bins lab, load the starter nibble point with low, mid, high, and top; mid already hit from sample five. Sample into other bins, switch opcode or FIFO presets, and close holes on purpose. Challenges ask you to hit a named hole and to finish all bins—not to spam random blindly.
 
-On paper or in markdown, sketch the same idea once. Optional templates live under ../verification_planning_management/.
+## Slide 4 — Planning docs practice
 
-## Slide 5 — Pitfalls
+Sketch one coverpoint with four named bins for a data nibble or opcode set. Mark which bin you would hit with a directed sample first. Note one value that sits outside your bins and decide whether to add a bin or ignore it deliberately.
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+## Slide 5 — Pitfalls to watch
+
+Do not confuse “more random” with hole closure. Do not redefine holes as every unseen number in nature—only defined bins count. Do not skip naming bins because cross coverage feels advanced; start with clear singles. And remember the lab is a sketch, not your simulator’s coverage DB.
 
 ## Slide 6 — Your turn
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+Complete the checklist for at least one track—preferably both. Close or name holes on a small bin sketch, then take the quiz and continue to coverage closure.

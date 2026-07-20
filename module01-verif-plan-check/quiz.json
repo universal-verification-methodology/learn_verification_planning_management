@@ -1,0 +1,53 @@
+{
+  "module": "module01-verif-plan-check",
+  "title": "Coverage / plan checklist",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "The planning chain in this lab is…",
+      "choices": [
+        "Feature → scenario → coverage item",
+        "Only seed → farm → waiver",
+        "Only compile → elaborate → wave",
+        "Only git commit → push → merge"
+      ],
+      "answer": 0,
+      "explain": "Traceability: feature, scenario, measurable coverage."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A scenario without a coverage item is…",
+      "choices": [
+        "Unmeasurable—you cannot prove it ran",
+        "Automatically signed off",
+        "The same as a P0 risk",
+        "A VIP handoff deliverable"
+      ],
+      "answer": 0,
+      "explain": "No coverage link means no proof."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Coverage without a feature or scenario is…",
+      "choices": [
+        "An orphan measurement—hard to own or close",
+        "Always better than a full chain",
+        "Required before naming any feature",
+        "Proof the farm is healthy"
+      ],
+      "answer": 0,
+      "explain": "Orphan bins lack planning ownership."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "COMPLETE in the lab means feature, scenario, and coverage are linked for the row.",
+      "answer": true,
+      "explain": "Starter UART TX chain is the exemplar."
+    }
+  ]
+}

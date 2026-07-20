@@ -1,29 +1,31 @@
 # Module 07 — Seed / config / tags
 
-**Module id:** module07-seed-tags  
-**Lab:** seed-tags  
+**Module id:** module07-seed-tags
+**Lab:** seed-tags
 **Tracks:** A (planning docs) · B (browser lab)
 
 ## Slide 1 — Seed / config / tags
 
-Welcome to verification planning and management. This module focuses on **Seed / config / tags**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+A failing random test is useless if you cannot replay it. A run card needs a seed, enough config to relaunch the same mode, and tags that place the fail on triage boards. Replayable means those fields are filled on purpose.
 
-## Slide 2 — Why this matters
+## Slide 2 — What belongs on the card
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+Seed fixes the RNG so stimulus can return. Config holds plusargs and knobs—test name, baud, modes—not seed alone. Tags label slices: smoke, nightly, flake, quarantine. Weak means you recorded a seed but not enough config to relaunch. Missing any field blocks a clean replay story.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Browser lab
 
-Open the browser lab `seed-tags`: load the starter example, then walk a couple of challenges so the board vocabulary sticks.
+![Lab starter](assets/lab-starter.png)
 
-## Slide 4 — Track A written plan
+In the seed-tags lab, load the starter with seed forty-two, a named UART test and baud, and smoke plus nightly tags—replayable. Try a seed-only config and watch weak. Attach missing fields, then scan the card. Challenges drill what “enough config” means.
 
-On paper or in markdown, sketch the same idea once. Optional templates live under ../verification_planning_management/.
+## Slide 4 — Planning docs practice
 
-## Slide 5 — Pitfalls
+Write one run card for an imaginary fail: seed, two plusargs, and two tags. Then rewrite a bad card that only says “seed seven” and explain why a teammate could not replay it.
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+## Slide 5 — Pitfalls to watch
+
+Do not file fails with seed only. Do not skip tags so flakes vanish from boards. Do not change knobs while claiming the same seed replay. And do not treat the literacy board as your company’s database—copy the habit into real tickets.
 
 ## Slide 6 — Your turn
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+Complete the checklist for at least one track—preferably both. Build one replayable run card, then take the quiz and continue to regression triage.

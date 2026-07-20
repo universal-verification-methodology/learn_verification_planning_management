@@ -35,13 +35,15 @@ Prereq helpful: a protocol course (**learn_uart** / **spi** / **i2c**) or **lear
 3. Check off **CHECKLIST.md**.
 4. Expand `transcript.md` / regenerate media with **module-slides** when recording.
 
-## Media (module-slides ready)
+## Media
 
 | Artifact | Path |
 |----------|------|
-| Outline | [outline.yaml](outline.yaml) |
 | Transcript | [transcript.md](transcript.md) |
-| Slides / video | generate with **module-slides** |
+| Outline | [outline.yaml](outline.yaml) |
+| Slides | [slides.pptx](slides.pptx) · [slides.pdf](slides.pdf) |
+| Video | [video.mp4](video.mp4) |
+| Quiz | [quiz.json](quiz.json) |
 
 ## Next
 

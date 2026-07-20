@@ -1,0 +1,13 @@
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module02-test-taxonomy/frames/slide-1.png'
+duration 17.76
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module02-test-taxonomy/frames/slide-2.png'
+duration 23.304
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module02-test-taxonomy/frames/slide-3.png'
+duration 17.88
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module02-test-taxonomy/frames/slide-4.png'
+duration 15.6
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module02-test-taxonomy/frames/slide-5.png'
+duration 16.224
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module02-test-taxonomy/frames/slide-6.png'
+duration 11.688
+file '/mnt/d/proj/designs/learning/courses/learn_verification_planning_management/module02-test-taxonomy/frames/slide-6.png'

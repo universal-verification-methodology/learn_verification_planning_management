@@ -1,35 +1,55 @@
-# Module 10 outline — stub for module-slides
-title: "CI / farm flow"
-kind: lab
-lab: ci-farm-flow
-footer: "learn_verification_planning_management — ci-farm-flow"
+title: CI / farm flow
+footer: learn_verification_planning_management — ci farm flow
 slides:
-  - type: title
-    title: "CI / farm flow"
-    subtitle: "verification planning module 10"
-    notes: "Welcome. This module is CI / farm flow."
-  - type: bullets
-    title: Core idea
-    bullets:
-      - One planning concept
-      - Why it matters for sign-off
-    notes: "Teach the core idea — expand spoken prose in transcript.md."
-  - type: bullets
-    title: Track B browser lab
-    bullets:
-      - Open the matching planning lab
-      - Load starter · challenges
-    notes: "Show the browser board starter when available."
-  - type: bullets
-    title: Track A written plan
-    bullets:
-      - Paper or markdown table
-      - Optional legacy templates
-    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
-  - type: bullets
-    title: Your turn
-    bullets:
-      - Complete the checklist for at least one track
-      - Optional short quiz
-    notes: "Send learners to CHECKLIST.md, then the next module."
-duration_minutes: 6
+- type: title
+  title: CI / farm flow
+  subtitle: Verification scales in stages
+  notes: 'Verification scales in stages: local smoke on a laptop, CI as the merge
+    or scheduled gate, then the farm for scale-out regression and soak. Ready means
+    each stage you claim is green in order. Skipping a stage or promoting past a red
+    gate breaks trust.'
+- type: bullets
+  title: Local, CI, farm
+  bullets:
+  - Local is fast sanity before push
+  - CI is the agent gate, pull request or nightly slice
+  - Farm is where long regressions and stress live
+  - Pass advances; fail blocks; open means not run; skip gaps the chain
+  - A green farm with a failed local or skipped CI is not an honest ready flow
+  notes: Local is fast sanity before push. CI is the agent gate—pull request or nightly
+    slice. Farm is where long regressions and stress live. Pass advances; fail blocks;
+    open means not run; skip gaps the chain. A green farm with a failed local or skipped
+    CI is not an honest ready flow.
+- type: image
+  title: Browser lab
+  image: assets/lab-starter.png
+  caption: Lab starter
+  notes: In the CI-farm lab, load the starter with local, CI, and farm all pass—ready.
+    Try local fail or skip CI presets and watch blocked or gapped. Set stages deliberately,
+    then scan the flow. Challenges punish promoting past red.
+- type: bullets
+  title: Planning docs practice
+  bullets:
+  - Draw three boxes, local, CI, farm, and write what runs in each for your team
+  - Mark yesterday’s real or fictional status pass, fail, open, or skip
+  - If any is fail or skip, write the promotion rule you would enforce
+  notes: Draw three boxes—local, CI, farm—and write what runs in each for your team.
+    Mark yesterday’s real or fictional status pass, fail, open, or skip. If any is
+    fail or skip, write the promotion rule you would enforce.
+- type: bullets
+  title: Pitfalls to watch
+  bullets:
+  - Do not skip CI because the farm is “more complete.” Do not ignore local reds
+  - Do not treat one green farm night as a full flow
+  - And do not forget that seed and triage habits feed every stage
+  notes: Do not skip CI because the farm is “more complete.” Do not ignore local reds.
+    Do not treat one green farm night as a full flow. And do not forget that seed
+    and triage habits feed every stage—flow without replay is archaeology.
+- type: bullets
+  title: Your turn
+  bullets:
+  - Complete the checklist for at least one track, preferably both
+  - Describe or set a clean local-to-farm chain, then take the quiz and continue to
+    sign-off
+  notes: Complete the checklist for at least one track—preferably both. Describe or
+    set a clean local-to-farm chain, then take the quiz and continue to sign-off.

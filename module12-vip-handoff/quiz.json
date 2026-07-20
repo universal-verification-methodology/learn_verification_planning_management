@@ -1,0 +1,53 @@
+{
+  "module": "module12-vip-handoff",
+  "title": "VIP handoff",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "VIP handoff deliverables in this lab are…",
+      "choices": [
+        "Docs pack, API surface, and self-test",
+        "Only local → CI → farm",
+        "Only cover bins low/mid/high",
+        "Only flake quarantine tags"
+      ],
+      "answer": 0,
+      "explain": "Docs, API, self-test."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A docs pack should help consumers…",
+      "choices": [
+        "Onboard via README, quickstart, examples, and known limits",
+        "Force clocks in production silicon",
+        "Skip all coverage goals",
+        "Ignore triage forever"
+      ],
+      "answer": 0,
+      "explain": "Docs enable onboarding."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A failing standalone self-test…",
+      "choices": [
+        "BLOCKS handoff READY",
+        "Is required for READY",
+        "Replaces the need for API docs",
+        "Means taxonomy is SKEWED only"
+      ],
+      "answer": 0,
+      "explain": "Self-test red → BLOCKED."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "VIP handoff READY is not the same thing as full chip sign-off.",
+      "answer": true,
+      "explain": "Different gates; VIP can be ready earlier."
+    }
+  ]
+}

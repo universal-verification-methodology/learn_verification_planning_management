@@ -1,29 +1,31 @@
 # Module 00 — Welcome to verification planning
 
-**Module id:** module00-intro  
-**Lab:** none  
-**Tracks:** A · B intro
+**Module id:** module00-intro
+**Lab:** none (intro)
+**Tracks:** A (planning docs) · B (browser lab)
 
 ## Slide 1 — Welcome to verification planning
 
-Welcome to verification planning and management. This module focuses on **Welcome to verification planning**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+Welcome to verification planning and management. Protocol and UVM courses teach how to build tests and VIP. This path teaches the other half: how to plan what to verify, measure coverage and risk, triage regressions, and decide when you are ready to sign off.
 
-## Slide 2 — Why this matters
+## Slide 2 — What you’ll build toward
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+The arc is plan, coverage, regression, sign-off. You’ll practice a feature-to-scenario-to-coverage checklist, test taxonomy, a feature-by-scenario matrix, cover bins and closure ideas, risk priority, seed and tag replay cards, triage buckets, metrics bars, CI-to-farm flow, a sign-off gate, and VIP handoff deliverables. Deep VIP engines stay in protocol and UVM courses—here you learn the planning layer those courses point to.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Two tracks, one idea
 
-Point at the tools verification-planning section.
+Track A is planning docs you keep: paper or markdown tables, optional templates in the legacy verification planning materials. Track B is the platform’s verification-planning boards—interactive checklists and matrices with challenges. You may do either track, or both. A good rhythm is browser board first for vocabulary, then a short written table you could paste into a real project plan.
 
-## Slide 4 — Track A written plan
+## Slide 4 — Set up Track A
 
-Show the plan → coverage → regression → sign-off arc.
+Open this course folder and skim the module READMEs. Keep a notebook or markdown file ready for small tables. Optional: browse the legacy planning materials for templates. From the course root, self-check scripts can grade checklist items when you want them. Helpful prereq: one protocol course or basic UVM literacy—so the plan words map to tests you already understand.
 
-## Slide 5 — Pitfalls
+## Slide 5 — Set up Track B
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+![Tools index](assets/tools-index.png)
 
-## Slide 6 — Your turn
+From the monorepo, serve the platform folder with a simple local web server, then open the tools index and jump to the verification-planning section. All twelve planning labs ship—from plan checklist through VIP handoff. If you prefer, use the published tools site instead. Confirm you can reach the index; the next module opens the coverage and plan checklist lab.
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+## Slide 6 — How to move through modules
+
+For each module, read the README for the outcome, pick a track—or both—then work the checklist. Prefer Track B for graded board challenges; prefer Track A for artifacts you can reuse at work. When you finish this intro checklist, continue to the coverage and plan checklist.

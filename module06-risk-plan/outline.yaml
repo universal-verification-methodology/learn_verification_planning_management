@@ -1,35 +1,59 @@
-# Module 06 outline — stub for module-slides
-title: "Risk-based plan"
-kind: lab
-lab: risk-plan
-footer: "learn_verification_planning_management — risk-plan"
+title: Risk-based plan
+footer: learn_verification_planning_management — risk plan
 slides:
-  - type: title
-    title: "Risk-based plan"
-    subtitle: "verification planning module 06"
-    notes: "Welcome. This module is Risk-based plan."
-  - type: bullets
-    title: Core idea
-    bullets:
-      - One planning concept
-      - Why it matters for sign-off
-    notes: "Teach the core idea — expand spoken prose in transcript.md."
-  - type: bullets
-    title: Track B browser lab
-    bullets:
-      - Open the matching planning lab
-      - Load starter · challenges
-    notes: "Show the browser board starter when available."
-  - type: bullets
-    title: Track A written plan
-    bullets:
-      - Paper or markdown table
-      - Optional legacy templates
-    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
-  - type: bullets
-    title: Your turn
-    bullets:
-      - Complete the checklist for at least one track
-      - Optional short quiz
-    notes: "Send learners to CHECKLIST.md, then the next module."
-duration_minutes: 6
+- type: title
+  title: Risk-based plan
+  subtitle: Bandwidth is finite
+  notes: 'Bandwidth is finite. Risk-based planning scores how likely a bug class is
+    and how bad it is if it escapes, then assigns priority: must-test now, next wave,
+    later, or defer. Without that matrix, everything becomes P0 and nothing is.'
+- type: bullets
+  title: Risk times impact
+  bullets:
+  - Risk is likelihood; impact is severity if it escapes silicon or a customer
+  - High-high and medium-high often land as P0
+  - Low-medium may be P2
+  - Low-low can defer
+  - Aligned means your labels match the matrix suggestion
+  notes: Risk is likelihood; impact is severity if it escapes silicon or a customer.
+    High-high and medium-high often land as P0. Low-medium may be P2. Low-low can
+    defer. Aligned means your labels match the matrix suggestion; mismatch means you
+    called high-high a defer or left rows open.
+- type: image
+  title: Browser lab
+  image: assets/lab-starter.png
+  caption: Lab starter
+  notes: In the risk-plan lab, load the starter four items correctly prioritized—aligned.
+    Reorder a high-impact UART parity item versus cosmetic idle noise. Scan the matrix
+    when priorities fight the risk-impact product. Challenges force you to prioritize
+    the last open row honestly.
+- type: bullets
+  title: Planning docs practice
+  bullets:
+  - List four bug concerns for a block you know
+  - Score each likelihood and impact low, medium, or high, then assign P0, P1, P2,
+    or defer
+  - If more than half are P0, demote two with a written reason
+  notes: List four bug concerns for a block you know. Score each likelihood and impact
+    low, medium, or high, then assign P0, P1, P2, or defer. If more than half are
+    P0, demote two with a written reason.
+- type: bullets
+  title: Pitfalls to watch
+  bullets:
+  - Do not mark everything P0
+  - Do not defer high-likelihood, high-impact items because they are hard
+  - Do not confuse taxonomy tiers with risk scores, they cooperate but are not the
+    same
+  - And do not skip owners on deferred items
+  notes: Do not mark everything P0. Do not defer high-likelihood, high-impact items
+    because they are hard. Do not confuse taxonomy tiers with risk scores—they cooperate
+    but are not the same. And do not skip owners on deferred items.
+- type: bullets
+  title: Your turn
+  bullets:
+  - Complete the checklist for at least one track, preferably both
+  - Produce a small aligned priority list, then take the quiz and continue to seeds,
+    config
+  notes: Complete the checklist for at least one track—preferably both. Produce a
+    small aligned priority list, then take the quiz and continue to seeds, config,
+    and tags.

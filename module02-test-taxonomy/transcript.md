@@ -1,29 +1,31 @@
 # Module 02 — Test taxonomy
 
-**Module id:** module02-test-taxonomy  
-**Lab:** test-taxonomy  
+**Module id:** module02-test-taxonomy
+**Lab:** test-taxonomy
 **Tracks:** A (planning docs) · B (browser lab)
 
 ## Slide 1 — Test taxonomy
 
-Welcome to verification planning and management. This module focuses on **Test taxonomy**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+Not every test should be the same shape. Taxonomy sorts intent: directed checks for known requirements, constrained-random for breadth, stress for long pressure, and corner or negative cases for illegal and boundary behavior. A balanced plan mixes tiers on purpose.
 
-## Slide 2 — Why this matters
+## Slide 2 — Four tiers
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+Directed means hand-crafted stimulus for a known scenario. Random means constrained-legal traffic to explore space. Stress means long-run, backlog, or concurrent pressure. Corner means illegal, framing, or rare edges. Open rows are untyped; skewed means one tier dominates; balanced means each tier has intentional coverage.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Browser lab
 
-Open the browser lab `test-taxonomy`: load the starter example, then walk a couple of challenges so the board vocabulary sticks.
+![Lab starter](assets/lab-starter.png)
 
-## Slide 4 — Track A written plan
+In the taxonomy lab, load the starter with one test per tier until status reads balanced. Try an all-directed preset and watch skewed appear. Classify an open row, then scan the plan. Challenges lock in what each tier is for—not just cute names.
 
-On paper or in markdown, sketch the same idea once. Optional templates live under ../verification_planning_management/.
+## Slide 4 — Planning docs practice
 
-## Slide 5 — Pitfalls
+List four short test names for a UART-like block and tag each directed, random, stress, or corner. If everything is directed, rewrite one as random and one as corner. Say in one sentence why the mix reduces escape risk.
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+## Slide 5 — Pitfalls to watch
+
+Do not equate balanced taxonomy with one-hundred percent functional coverage. Do not leave tests untyped on a living plan. Do not hide negative cases because they are “hard.” And do not confuse a green CI job with a thoughtfully tiered suite.
 
 ## Slide 6 — Your turn
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+Complete the checklist for at least one track—preferably both. Classify a small set until it looks balanced, then take the quiz and continue to the feature-by-scenario matrix.

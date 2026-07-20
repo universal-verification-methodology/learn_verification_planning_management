@@ -1,0 +1,53 @@
+{
+  "module": "module11-signoff-checklist",
+  "title": "Sign-off checklist",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "Common sign-off criteria in this lab include…",
+      "choices": [
+        "Coverage goal, bug bar, and stability window",
+        "Only font choice on slides",
+        "Only number of hierarchy panes",
+        "Only taxonomy skew"
+      ],
+      "answer": 0,
+      "explain": "Coverage, bugs, stability."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "An open sev-1 against the DUT typically…",
+      "choices": [
+        "Fails the bug bar and BLOCKS the gate",
+        "Is ignored if coverage is high",
+        "Makes CI skip required",
+        "Counts as VIP self-test"
+      ],
+      "answer": 0,
+      "explain": "Bug bar breach → BLOCKED."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "A waiver at sign-off should include…",
+      "choices": [
+        "Owner, reason, and expiry—not a silent skip",
+        "Only a thumbs-up emoji",
+        "Only a random seed",
+        "Only a feature-matrix dash"
+      ],
+      "answer": 0,
+      "explain": "Documented waiver with ownership."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "READY means each criterion is met or properly waived with evidence.",
+      "answer": true,
+      "explain": "Gate hygiene, not vibes."
+    }
+  ]
+}

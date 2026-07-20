@@ -1,0 +1,53 @@
+{
+  "module": "module00-intro",
+  "title": "Welcome to verification planning",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "This course’s main arc is…",
+      "choices": [
+        "Plan → coverage → regression → sign-off",
+        "Only RTL synthesis and place-and-route",
+        "Only Git branching strategies",
+        "Only writing UVM agents from scratch"
+      ],
+      "answer": 0,
+      "explain": "Planning and management path, not VIP engines."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Track A practice means…",
+      "choices": [
+        "Paper or markdown planning docs / templates",
+        "Only forcing clocks in a wave window",
+        "Only PCB silkscreen review",
+        "Browser labs forever with no written plan"
+      ],
+      "answer": 0,
+      "explain": "Track A is lasting planning artifacts."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Protocol and UVM courses typically…",
+      "choices": [
+        "Teach how to build tests/VIP; this course teaches plan, measure, and sign-off",
+        "Replace the need for any coverage plan",
+        "Are identical to this planning course",
+        "Forbid triage and metrics"
+      ],
+      "answer": 0,
+      "explain": "Planning depth lives here; engines elsewhere."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "Browser planning boards are literacy tools—they do not replace a real project’s coverage database or farm.",
+      "answer": true,
+      "explain": "Concept boards teach vocabulary and habits."
+    }
+  ]
+}

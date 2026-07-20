@@ -1,0 +1,53 @@
+{
+  "module": "module08-regression-triage",
+  "title": "Regression triage",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "A reproducible DUT/VIP/scoreboard break should be bucketed as…",
+      "choices": [
+        "fail",
+        "env only",
+        "always waive",
+        "feature-matrix P"
+      ],
+      "answer": 0,
+      "explain": "Reproducible design/VIP issues → fail."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Intermittent seed-sensitive timeouts are often…",
+      "choices": [
+        "flake — quarantine and stabilize",
+        "automatic sign-off READY",
+        "proof of 100% coverage",
+        "VIP docs_pack complete"
+      ],
+      "answer": 0,
+      "explain": "Flakes need quarantine, not burial."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Farm license or tool crashes belong in…",
+      "choices": [
+        "env — infrastructure, not design",
+        "corner taxonomy only",
+        "cover bins mid",
+        "P0 risk forever without looking"
+      ],
+      "answer": 0,
+      "explain": "Env ≠ DUT fail."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "A CLEAN triage board means every row is bucketed—not that all bugs are fixed.",
+      "answer": true,
+      "explain": "Clean = labeled; fix work still follows."
+    }
+  ]
+}

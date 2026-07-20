@@ -21,6 +21,16 @@ If you mainly used **Track A**, open the shipped boards for interactive challeng
 Back to protocol / UVM work with a clearer planning vocabulary — or deepen offline in [`../verification_planning_management/`](../verification_planning_management/).  
 Syllabus ladder: [../../syllabus.md](../../syllabus.md#suggested-learning-ladder)
 
+## Media
+
+| Artifact | Path |
+|----------|------|
+| Transcript | [transcript.md](transcript.md) |
+| Outline | [outline.yaml](outline.yaml) |
+| Slides | [slides.pptx](slides.pptx) · [slides.pdf](slides.pdf) |
+| Video | [video.mp4](video.mp4) |
+| Quiz | [quiz.json](quiz.json) |
+
 ## Checklist
 
 - [ ] I completed Track A and/or Track B for the modules I care about

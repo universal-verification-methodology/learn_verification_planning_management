@@ -1,35 +1,56 @@
-# Module 05 outline — stub for module-slides
-title: "Coverage closure"
-kind: lab
-lab: coverage-closure
-footer: "learn_verification_planning_management — coverage-closure"
+title: Coverage closure
+footer: learn_verification_planning_management — coverage closure
 slides:
-  - type: title
-    title: "Coverage closure"
-    subtitle: "verification planning module 05"
-    notes: "Welcome. This module is Coverage closure."
-  - type: bullets
-    title: Core idea
-    bullets:
-      - One planning concept
-      - Why it matters for sign-off
-    notes: "Teach the core idea — expand spoken prose in transcript.md."
-  - type: bullets
-    title: Track B browser lab
-    bullets:
-      - Open the matching planning lab
-      - Load starter · challenges
-    notes: "Show the browser board starter when available."
-  - type: bullets
-    title: Track A written plan
-    bullets:
-      - Paper or markdown table
-      - Optional legacy templates
-    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
-  - type: bullets
-    title: Your turn
-    bullets:
-      - Complete the checklist for at least one track
-      - Optional short quiz
-    notes: "Send learners to CHECKLIST.md, then the next module."
-duration_minutes: 6
+- type: title
+  title: Coverage closure
+  subtitle: Finding holes is not closing them
+  notes: Finding holes is not closing them. Closure means pairing each open bin with
+    a next-test idea, running or planning that idea, then marking the hole closed
+    when evidence lands. Without the pair, status meetings turn into wishful percentages.
+- type: bullets
+  title: Hole plus next-test idea
+  bullets:
+  - A good idea names how you will hit the hole
+  - Generic “more random” is weak when the hole needs a directed hit
+  - Mismatch means the idea targets the wrong hole
+  - Need-idea means you have not planned the next move
+  notes: A good idea names how you will hit the hole—directed mid samples, drive an
+    error opcode once, push FIFO until full. Generic “more random” is weak when the
+    hole needs a directed hit. Mismatch means the idea targets the wrong hole. Need-idea
+    means you have not planned the next move.
+- type: image
+  title: Browser lab
+  image: assets/lab-starter.png
+  caption: Lab starter
+  notes: In the coverage-closure lab, load the starter where mid is open and the idea
+    is directed mid samples—ready. Try mismatch and orphan presets. Plan a next test,
+    then mark a hole closed only when the story matches. Challenges punish vague random
+    and reward targeted plans.
+- type: bullets
+  title: Planning docs practice
+  bullets:
+  - Pick three holes from a tiny cover sketch
+  - Write one next-test idea per hole in a table
+  - Star any idea that is only “run more random” and rewrite it to name the bin or
+    corner you
+  notes: Pick three holes from a tiny cover sketch. Write one next-test idea per hole
+    in a table. Star any idea that is only “run more random” and rewrite it to name
+    the bin or corner you will force.
+- type: bullets
+  title: Pitfalls to watch
+  bullets:
+  - Do not mark closed without evidence
+  - Do not paste one generic idea onto every hole
+  - Do not ignore mismatch between idea and hole
+  - And do not confuse board ready with silicon sign-off
+  notes: Do not mark closed without evidence. Do not paste one generic idea onto every
+    hole. Do not ignore mismatch between idea and hole. And do not confuse board ready
+    with silicon sign-off—this is closure hygiene, not a tapeout stamp.
+- type: bullets
+  title: Your turn
+  bullets:
+  - Complete the checklist for at least one track, preferably both
+  - Pair one hole with a concrete next-test idea
+  notes: Complete the checklist for at least one track—preferably both. Pair one hole
+    with a concrete next-test idea, then take the quiz and continue to risk-based
+    planning.

@@ -1,29 +1,31 @@
 # Module 01 — Coverage / plan checklist
 
-**Module id:** module01-verif-plan-check  
-**Lab:** verif-plan-check  
+**Module id:** module01-verif-plan-check
+**Lab:** verif-plan-check
 **Tracks:** A (planning docs) · B (browser lab)
 
 ## Slide 1 — Coverage / plan checklist
 
-Welcome to verification planning and management. This module focuses on **Coverage / plan checklist**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+A verification plan is not a pile of test names. It is a traceability chain: a feature the product must do, a scenario that exercises it, and a coverage item that proves the scenario ran. If any link is missing, you cannot measure completion.
 
-## Slide 2 — Why this matters
+## Slide 2 — Feature, scenario, coverage
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+Feature means requirement or capability—say UART transmit. Scenario is the test story—send one byte. Coverage is the measurable proof—a bin, coverpoint, or checklist item such as transmit-byte-done. Complete means all three layers link. Incomplete means a gap: a scenario with no coverage, or coverage with no owning feature.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Browser lab
 
-Open the browser lab `verif-plan-check`: load the starter example, then walk a couple of challenges so the board vocabulary sticks.
+![Lab starter](assets/lab-starter.png)
 
-## Slide 4 — Track A written plan
+In the plan-check lab, load the starter: UART TX, send one byte, and transmit-byte-done linked—status complete. Try presets that drop coverage or orphan a bin, then rebuild the chain. Challenges quiz each layer and force you to restore a complete plan from gaps.
 
-On paper or in markdown, sketch the same idea once. Optional templates live under ../verification_planning_management/.
+## Slide 4 — Planning docs practice
 
-## Slide 5 — Pitfalls
+On paper or markdown, write one row with three columns: feature, scenario, coverage item. Use a tiny UART or SPI capability you know. Then deliberately delete the coverage cell and ask: how would I know this scenario ran? That question is the whole module.
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+## Slide 5 — Pitfalls to watch
+
+Do not treat the board as a live coverage database. Do not list coverage items with no feature owner—orphans lie. Do not stop at scenarios without a measurable proof. And do not confuse “we have a test file” with “we have a coverable claim.”
 
 ## Slide 6 — Your turn
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+Complete the checklist for at least one track—preferably both. In the browser, reach a complete three-layer chain. On paper, write one feature-scenario-coverage row you could paste into a real plan. When you are ready, take the short quiz, then continue to test taxonomy.

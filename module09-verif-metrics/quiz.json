@@ -1,0 +1,53 @@
+{
+  "module": "module09-verif-metrics",
+  "title": "Verification metrics",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "A typical sev-1 bug-escape bar is…",
+      "choices": [
+        "Zero escapes for the milestone",
+        "At least ten escapes to prove testing",
+        "Identical to taxonomy BALANCED",
+        "Only the number of wave cursors"
+      ],
+      "answer": 0,
+      "explain": "Escapes bar is usually zero."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Low regression pass rate mainly signals…",
+      "choices": [
+        "Instability—hard to trust results",
+        "Automatic VIP handoff READY",
+        "That seeds are unnecessary",
+        "That risk planning is done"
+      ],
+      "answer": 0,
+      "explain": "Pass rate = stability of the suite."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "HEALTHY in this lab means…",
+      "choices": [
+        "Pass rate, coverage, and escapes all meet their bars",
+        "One local smoke passed once",
+        "All cells are P only",
+        "All fails marked flake"
+      ],
+      "answer": 0,
+      "explain": "All tracked bars met."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "A bug-escape breach can BLOCK the metrics board even if coverage percent looks high.",
+      "answer": true,
+      "explain": "Escapes are a hard gate in the lab model."
+    }
+  ]
+}

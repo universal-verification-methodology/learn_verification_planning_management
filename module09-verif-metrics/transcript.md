@@ -1,29 +1,31 @@
 # Module 09 — Verification metrics
 
-**Module id:** module09-verif-metrics  
-**Lab:** verif-metrics  
+**Module id:** module09-verif-metrics
+**Lab:** verif-metrics
 **Tracks:** A (planning docs) · B (browser lab)
 
 ## Slide 1 — Verification metrics
 
-Welcome to verification planning and management. This module focuses on **Verification metrics**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+Plans need numbers that leadership and engineers share. Common bars: regression pass rate, plan or functional coverage percent, and severe bug escapes. Healthy means every metric meets its bar. Blocked means an escape bar was broken. Open means you are under on pass or coverage.
 
-## Slide 2 — Why this matters
+## Slide 2 — Bars that matter
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+Pass rate below the bar means instability—you cannot trust green stories. Coverage percent below goal means unfinished plan risk. Bug escapes above zero at a sev-one bar usually stop the gate. Levels good, warn, and bad are how you talk without drowning in raw dumps.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Browser lab
 
-Open the browser lab `verif-metrics`: load the starter example, then walk a couple of challenges so the board vocabulary sticks.
+![Lab starter](assets/lab-starter.png)
 
-## Slide 4 — Track A written plan
+In the metrics lab, load the starter with strong pass rate, coverage, and zero escapes—healthy. Drop pass rate or raise escapes and scan the board. Challenges show how one escape can block the story even if coverage looks fine.
 
-On paper or in markdown, sketch the same idea once. Optional templates live under ../verification_planning_management/.
+## Slide 4 — Planning docs practice
 
-## Slide 5 — Pitfalls
+Write three metric names with a numeric bar each for a fictional milestone. Mark today’s sample good, warn, or bad. If any is bad, write the first action you would take this week.
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+## Slide 5 — Pitfalls to watch
+
+Do not call the program healthy because CI ran once. Do not ignore escape counts when coverage is high. Do not change bars silently mid-milestone. And do not track twenty vanity metrics—three honest bars beat a dashboard museum.
 
 ## Slide 6 — Your turn
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+Complete the checklist for at least one track—preferably both. Set or interpret three bars, then take the quiz and continue to CI and farm flow.

@@ -1,0 +1,53 @@
+{
+  "module": "module13-wrap",
+  "title": "Planning path complete",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "After this course you should be able to…",
+      "choices": [
+        "Plan, measure, triage, and gate verification with shared vocabulary",
+        "Skip all coverage and only wave poke",
+        "Replace every protocol course",
+        "Ignore seeds and tags forever"
+      ],
+      "answer": 0,
+      "explain": "Planning/management literacy outcomes."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "A durable habit from this path is…",
+      "choices": [
+        "Feature→scenario→coverage traceability and evidence-based gates",
+        "Marking every fail as flake",
+        "Skipping CI always",
+        "Waiving without owners"
+      ],
+      "answer": 0,
+      "explain": "Traceability + evidence."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "If you mostly used browser labs, a good wrap action is…",
+      "choices": [
+        "Turn one board into a markdown artifact for a real block",
+        "Delete all metrics bars",
+        "Force-clock every net",
+        "Avoid VIP docs"
+      ],
+      "answer": 0,
+      "explain": "Transfer literacy into lasting docs."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "Sign-off without evidence is hope—not a gate.",
+      "answer": true,
+      "explain": "Evidence or owned waiver."
+    }
+  ]
+}

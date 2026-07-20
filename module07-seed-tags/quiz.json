@@ -1,0 +1,53 @@
+{
+  "module": "module07-seed-tags",
+  "title": "Seed / config / tags",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "A fixed seed mainly helps you…",
+      "choices": [
+        "Replay the failing stimulus",
+        "Skip writing a testbench",
+        "Auto-sign off silicon",
+        "Delete coverage holes"
+      ],
+      "answer": 0,
+      "explain": "Seed → replay."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Config on the run card should include…",
+      "choices": [
+        "Plusargs / knobs that select test and DUT mode",
+        "Only the hostname of the coffee machine",
+        "Only the slide theme color",
+        "Only the waiver expiry year"
+      ],
+      "answer": 0,
+      "explain": "Config relaunches the same mode."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "Seed-only with no testname/config is…",
+      "choices": [
+        "WEAK for replay",
+        "Always REPLAYABLE",
+        "A sign-off criterion",
+        "A feature-matrix C cell"
+      ],
+      "answer": 0,
+      "explain": "Need seed + usable config (+ tags)."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "Tags like smoke, nightly, or flake help triage boards bucket the fail.",
+      "answer": true,
+      "explain": "Tags place the fail in the right slice."
+    }
+  ]
+}

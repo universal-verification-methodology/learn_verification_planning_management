@@ -1,0 +1,53 @@
+{
+  "module": "module04-cover-bins",
+  "title": "Cover bins sketch",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "A coverage hole in this lab means…",
+      "choices": [
+        "A defined bin with zero hits",
+        "Any integer the DUT never saw in nature",
+        "A failing CI agent only",
+        "A missing git tag"
+      ],
+      "answer": 0,
+      "explain": "Hole = defined bin, zero hits."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "Coverage percent here is roughly…",
+      "choices": [
+        "Bins hit divided by bins defined",
+        "Farm CPU hours only",
+        "Number of plusargs",
+        "Lines of UVM code"
+      ],
+      "answer": 0,
+      "explain": "Hit bins / total bins."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "The best first move on a stubborn hole is often…",
+      "choices": [
+        "A targeted sample or directed test into that bin",
+        "Forcing the clock permanently",
+        "Deleting the coverpoint",
+        "Marking sign-off READY immediately"
+      ],
+      "answer": 0,
+      "explain": "Target the hole; don’t only add noise."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "A value outside named bins is a modeling choice—not automatically the same as a hole.",
+      "answer": true,
+      "explain": "Holes are about defined bins."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "module": "module03-feature-matrix",
+  "title": "Feature × scenario matrix",
+  "passing_score": 0.67,
+  "items": [
+    {
+      "id": "q1",
+      "type": "multiple_choice",
+      "prompt": "In this lab, P on a cell means…",
+      "choices": [
+        "Planned intent for that feature×scenario intersection",
+        "Proven coverage evidence already exists",
+        "Priority P0 only",
+        "Pass rate on the farm"
+      ],
+      "answer": 0,
+      "explain": "P = planned, not yet proof."
+    },
+    {
+      "id": "q2",
+      "type": "multiple_choice",
+      "prompt": "C on a cell means…",
+      "choices": [
+        "Covered—evidence or bin hit for that intersection",
+        "Compile-only with no test",
+        "Config plusargs missing",
+        "Corner taxonomy only"
+      ],
+      "answer": 0,
+      "explain": "C = covered / evidence."
+    },
+    {
+      "id": "q3",
+      "type": "multiple_choice",
+      "prompt": "An empty matrix cell is…",
+      "choices": [
+        "A gap—unplanned intersection",
+        "Automatically waived",
+        "The same as HEALTHY metrics",
+        "Proof of VIP handoff"
+      ],
+      "answer": 0,
+      "explain": "Empty = gap to plan or cover."
+    },
+    {
+      "id": "q4",
+      "type": "true_false",
+      "prompt": "A matrix with no empty cells can still be weak if every cell is only P and never C.",
+      "answer": true,
+      "explain": "Intent without evidence is not closure."
+    }
+  ]
+}

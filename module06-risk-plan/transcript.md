@@ -1,29 +1,31 @@
 # Module 06 — Risk-based plan
 
-**Module id:** module06-risk-plan  
-**Lab:** risk-plan  
+**Module id:** module06-risk-plan
+**Lab:** risk-plan
 **Tracks:** A (planning docs) · B (browser lab)
 
 ## Slide 1 — Risk-based plan
 
-Welcome to verification planning and management. This module focuses on **Risk-based plan**. Protocol and UVM courses teach how to build tests; this course teaches how to plan, measure, and sign off.
+Bandwidth is finite. Risk-based planning scores how likely a bug class is and how bad it is if it escapes, then assigns priority: must-test now, next wave, later, or defer. Without that matrix, everything becomes P0 and nothing is.
 
-## Slide 2 — Why this matters
+## Slide 2 — Risk times impact
 
-Without a plan, coverage holes and flaky regressions stay invisible until late. One clear planning skill here saves weeks of thrash later.
+Risk is likelihood; impact is severity if it escapes silicon or a customer. High-high and medium-high often land as P0. Low-medium may be P2. Low-low can defer. Aligned means your labels match the matrix suggestion; mismatch means you called high-high a defer or left rows open.
 
-## Slide 3 — Track B browser lab
+## Slide 3 — Browser lab
 
-Open the browser lab `risk-plan`: load the starter example, then walk a couple of challenges so the board vocabulary sticks.
+![Lab starter](assets/lab-starter.png)
 
-## Slide 4 — Track A written plan
+In the risk-plan lab, load the starter four items correctly prioritized—aligned. Reorder a high-impact UART parity item versus cosmetic idle noise. Scan the matrix when priorities fight the risk-impact product. Challenges force you to prioritize the last open row honestly.
 
-On paper or in markdown, sketch the same idea once. Optional templates live under ../verification_planning_management/.
+## Slide 4 — Planning docs practice
 
-## Slide 5 — Pitfalls
+List four bug concerns for a block you know. Score each likelihood and impact low, medium, or high, then assign P0, P1, P2, or defer. If more than half are P0, demote two with a written reason.
 
-Do not confuse a coverage number with product quality. Do not treat overnight farm runs as sign-off without exit criteria. Prefer tagged, seed-reproducible failures over “it failed somehow.”
+## Slide 5 — Pitfalls to watch
+
+Do not mark everything P0. Do not defer high-likelihood, high-impact items because they are hard. Do not confuse taxonomy tiers with risk scores—they cooperate but are not the same. And do not skip owners on deferred items.
 
 ## Slide 6 — Your turn
 
-Complete the checklist for at least one track — preferably both. When you finish, continue to the next module in docs/MODULES.md.
+Complete the checklist for at least one track—preferably both. Produce a small aligned priority list, then take the quiz and continue to seeds, config, and tags.
