@@ -1,0 +1,35 @@
+# Module 10 outline — stub for module-slides
+title: "CI / farm flow"
+kind: lab
+lab: ci-farm-flow
+footer: "learn_verification_planning_management — ci-farm-flow"
+slides:
+  - type: title
+    title: "CI / farm flow"
+    subtitle: "verification planning module 10"
+    notes: "Welcome. This module is CI / farm flow."
+  - type: bullets
+    title: Core idea
+    bullets:
+      - One planning concept
+      - Why it matters for sign-off
+    notes: "Teach the core idea — expand spoken prose in transcript.md."
+  - type: bullets
+    title: Track B browser lab
+    bullets:
+      - Open the matching planning lab
+      - Load starter · challenges
+    notes: "Show the browser board starter when available."
+  - type: bullets
+    title: Track A written plan
+    bullets:
+      - Paper or markdown table
+      - Optional legacy templates
+    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
+  - type: bullets
+    title: Your turn
+    bullets:
+      - Complete the checklist for at least one track
+      - Optional short quiz
+    notes: "Send learners to CHECKLIST.md, then the next module."
+duration_minutes: 6

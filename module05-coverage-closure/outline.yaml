@@ -1,0 +1,35 @@
+# Module 05 outline — stub for module-slides
+title: "Coverage closure"
+kind: lab
+lab: coverage-closure
+footer: "learn_verification_planning_management — coverage-closure"
+slides:
+  - type: title
+    title: "Coverage closure"
+    subtitle: "verification planning module 05"
+    notes: "Welcome. This module is Coverage closure."
+  - type: bullets
+    title: Core idea
+    bullets:
+      - One planning concept
+      - Why it matters for sign-off
+    notes: "Teach the core idea — expand spoken prose in transcript.md."
+  - type: bullets
+    title: Track B browser lab
+    bullets:
+      - Open the matching planning lab
+      - Load starter · challenges
+    notes: "Show the browser board starter when available."
+  - type: bullets
+    title: Track A written plan
+    bullets:
+      - Paper or markdown table
+      - Optional legacy templates
+    notes: "Point at EXAMPLES.md and legacy verification_planning_management."
+  - type: bullets
+    title: Your turn
+    bullets:
+      - Complete the checklist for at least one track
+      - Optional short quiz
+    notes: "Send learners to CHECKLIST.md, then the next module."
+duration_minutes: 6
