@@ -20,12 +20,7 @@ case "$ACTION" in
     echo "Module $NN self-check (Track A environment)"
     echo "Module dir: $MOD_DIR"
     command -v bash >/dev/null && echo "[OK] bash"
-    LEGACY="$(cd "$ROOT/.." && pwd)/verification_planning_management"
-    if [[ -d "$LEGACY" ]]; then
-      echo "[OK] legacy course present: $LEGACY"
-    else
-      echo "[INFO] legacy verification_planning_management not checked out"
-    fi
+    echo "[INFO] Track A uses this course’s examples/ (no external archive required)"
     [[ -f "$MOD_DIR/EXAMPLES.md" ]] && echo "[OK] EXAMPLES.md"
     [[ -f "$MOD_DIR/CHECKLIST.md" ]] && echo "[OK] CHECKLIST.md"
     [[ -f "$MOD_DIR/transcript.md" ]] && echo "[OK] transcript.md (module-slides)"

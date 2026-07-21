@@ -9,7 +9,7 @@
 
 **learn_verification_planning_management** is the open learning path for *plan → coverage → regression → sign-off*.
 
-Authors rebuild slides/audio with **module-slides** in the parent monorepo. Legacy materials: [`verification_planning_management`](../verification_planning_management/).
+Authors rebuild slides/audio with **module-slides** in the parent monorepo. Reference materials: [`verification_planning_management`](./).
 
 ## Table of contents
 
@@ -41,7 +41,6 @@ learn_verification_planning_management/
 ## Browse or clone
 
 - **Browser labs:** [tools/#verif-plan](https://universal-verification-methodology.github.io/learning/tools/#verif-plan)
-- **Legacy:** [`verification_planning_management`](https://github.com/universal-verification-methodology/verification_planning_management)
 - **Syllabus:** [`syllabus.md` § planning](https://github.com/universal-verification-methodology/learning/blob/main/syllabus.md#14-learn_verification_planning_management)
 
 ```bash
@@ -67,7 +66,7 @@ Details: [docs/TWO_TRACKS.md](docs/TWO_TRACKS.md).
 
 | Track | Practice surface | Start here |
 |-------|------------------|------------|
-| **A — Planning docs** | Paper · [`../verification_planning_management`](../verification_planning_management/) | [docs/TWO_TRACKS.md](docs/TWO_TRACKS.md) |
+| **A — Planning docs** | Paper · [`../verification_planning_management`](./) | [docs/TWO_TRACKS.md](docs/TWO_TRACKS.md) |
 | **B — Browser lab** | Planning boards | [verif-plan-check](https://universal-verification-methodology.github.io/learning/tools/verif-plan-check/) |
 
 Lab status snapshot: **12 shipped** (see [docs/MODULES.md](docs/MODULES.md)).

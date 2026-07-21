@@ -14,11 +14,11 @@ The arc is plan, coverage, regression, sign-off. You’ll practice a feature-to-
 
 ## Slide 3 — Two tracks, one idea
 
-Track A is planning docs you keep: paper or markdown tables, optional templates in the legacy verification planning materials. Track B is the platform’s verification-planning boards—interactive checklists and matrices with challenges. You may do either track, or both. A good rhythm is browser board first for vocabulary, then a short written table you could paste into a real project plan.
+Track A is planning docs you keep: paper or markdown tables, optional templates in this course’s examples. Track B is the platform’s verification-planning boards—interactive checklists and matrices with challenges. You may do either track, or both. A good rhythm is browser board first for vocabulary, then a short written table you could paste into a real project plan.
 
 ## Slide 4 — Set up Track A
 
-Open this course folder and skim the module READMEs. Keep a notebook or markdown file ready for small tables. Optional: browse the legacy planning materials for templates. From the course root, self-check scripts can grade checklist items when you want them. Helpful prereq: one protocol course or basic UVM literacy—so the plan words map to tests you already understand.
+Open this course folder and skim the module READMEs. Keep a notebook or markdown file ready for small tables. Optional: browse this course’s examples for templates. From the course root, self-check scripts can grade checklist items when you want them. Helpful prereq: one protocol course or basic UVM literacy—so the plan words map to tests you already understand.
 
 ## Slide 5 — Set up Track B
 

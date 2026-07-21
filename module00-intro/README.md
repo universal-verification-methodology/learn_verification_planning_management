@@ -11,14 +11,14 @@ Protocol and UVM courses point here for planning depth — do not re-teach full 
 
 | Track | Where you practice | Best for |
 |-------|--------------------|----------|
-| **A — Planning docs / legacy** | Paper + templates under [`../verification_planning_management/`](../verification_planning_management/) | Plans you keep in a real project |
+| **A — Planning docs** | Paper + templates under this module’s `examples/` | Plans you keep in a real project |
 | **B — Browser lab** | Platform verification-planning tools | Checklists, matrices, triage boards |
 
 Prereq helpful: a protocol course (**learn_uart** / **spi** / **i2c**) or **learn_uvm2017**.
 
 ## Setup (Track A)
 
-1. Optional: open legacy docs under [`../verification_planning_management/`](../verification_planning_management/).
+1. Optional: open docs under this module’s `examples/`.
 2. Editor for markdown / tables (feature matrix, risk plan).
 3. Open this repo at `courses/learn_verification_planning_management`.
 

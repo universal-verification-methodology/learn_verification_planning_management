@@ -1,11 +1,11 @@
 # Two learning tracks
 
-## Track A — Planning docs / legacy
+## Track A — Planning docs
 
 Practice with paper + markdown plans (optional templates).
 
 - Prompts under each `moduleNN-*/EXAMPLES.md`
-- Optional examples in [`../verification_planning_management/`](../verification_planning_management/)
+- Optional examples in this module’s `examples/`
 - Self-check: `./scripts/module.sh NN --check`
 
 ## Track B — Browser lab

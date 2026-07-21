@@ -28,7 +28,7 @@ Welcome to verification planning and management
 ## Set up Track A
 - Open this course folder and skim the module READMEs
 - Keep a notebook or markdown file ready for small tables
-- Optional: browse the legacy planning materials for templates
+- Optional: browse this course’s examples for templates
 - From the course root, self-check scripts can grade checklist items when you want them
 - Helpful prereq
 

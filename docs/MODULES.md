@@ -21,4 +21,4 @@ Lab-driven syllabus (pass 3). Full product syllabus: [../../syllabus.md](../../s
 
 ## Dual tracks
 
-See [TWO_TRACKS.md](TWO_TRACKS.md). Legacy: [`../verification_planning_management/`](../verification_planning_management/).
+See [TWO_TRACKS.md](TWO_TRACKS.md). Offline example: this module’s `examples/`.

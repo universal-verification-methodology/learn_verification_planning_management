@@ -4,7 +4,7 @@
 
 - [ ] Opened this repo at `courses/learn_verification_planning_management`
 - [ ] Opened the [tools index](http://127.0.0.1:8080/tools/index.html#verif-plan) once
-- [ ] Optional: peeked at [`../verification_planning_management/`](../verification_planning_management/)
+- [ ] Optional: peeked at this module’s `examples/`
 
 ## Mindset
 

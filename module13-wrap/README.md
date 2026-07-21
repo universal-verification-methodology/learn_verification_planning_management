@@ -18,7 +18,7 @@ If you mainly used **Track A**, open the shipped boards for interactive challeng
 
 ## Next courses
 
-Back to protocol / UVM work with a clearer planning vocabulary — or deepen offline in [`../verification_planning_management/`](../verification_planning_management/).  
+Back to protocol / UVM work with a clearer planning vocabulary — or deepen offline in this module’s `examples/`.  
 Syllabus ladder: [../../syllabus.md](../../syllabus.md#suggested-learning-ladder)
 
 ## Media

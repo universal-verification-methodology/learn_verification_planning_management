@@ -13,7 +13,7 @@ After this module you can explain and practice the ideas taught by **`seed-tags`
 ### Track A — Planning docs (hands-on)
 
 1. Open [EXAMPLES.md](EXAMPLES.md) and work the prompts (paper / markdown tables).
-2. Optional templates: [`../verification_planning_management/`](../verification_planning_management/).
+2. Optional templates: this module’s `examples/`.
 3. Complete [CHECKLIST.md](CHECKLIST.md).
 4. Optional: `./scripts/module.sh 07 --check`.
 
